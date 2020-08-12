@@ -1,8 +1,8 @@
 # seizure-type-classification-tuh
 
 In this repo, it generated pre-processed dataset for TUH seizure type classification which has been used in below 2 papers:
-["Seizure Type Classification using EEG signals and Machine Learning: Setting a benchmark"](https://arxiv.org/abs/1902.01012)
-["SeizureNet: Multi-Spectral Deep Feature Learning for Seizure Type Classification"](https://arxiv.org/abs/1903.03232)
+1. ["Seizure Type Classification using EEG signals and Machine Learning: Setting a benchmark"](https://arxiv.org/abs/1902.01012)
+2. ["SeizureNet: Multi-Spectral Deep Feature Learning for Seizure Type Classification"](https://arxiv.org/abs/1903.03232)
 
 For more details, please refer to: `data_preparation`
 
