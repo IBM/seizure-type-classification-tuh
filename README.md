@@ -6,7 +6,7 @@ In this repo, it generated pre-processed dataset for TUH seizure type classifica
 
 For more details, please refer to: `data_preparation`
 
-## Cite us. 
+## Cite us
 
 ```
 @article{roy2019machine,

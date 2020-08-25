@@ -71,12 +71,14 @@ def print_type_information(data_dict):
         l.append([szr_type, (len(szr_info_list)), (len(unique_patient_id_list)), (total_dur)])
 
         #  numpy.asarray((unique, counts)).T
+        '''
         if szr_type=='TNSZ':
             print('TNSZ Patient ID list:')
             print(np.asarray((unique_patient_id_list, counts)).T)
         if szr_type=='SPSZ':
             print('SPSZ Patient ID list:')
             print(np.asarray((unique_patient_id_list, counts)).T)
+        '''
 
     sorted_by_szr_num = sorted(l, key=lambda tup: tup[1], reverse=True)
     print(tabulate(sorted_by_szr_num, headers=['Seizure Type', 'Seizure Num','Patient Num','Duration(Sec)']))
