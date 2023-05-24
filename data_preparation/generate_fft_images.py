@@ -29,7 +29,7 @@ def convert_to_fft(window_length, window_step, fft_min_freq, fft_max_freq, sampl
     while stop < time_series_data.shape[1]:
         signal_window = time_series_data[:, start:stop]
         fft_window = pipeline.apply(signal_window)
-        fft_dfft_dataata.append(fft_window)
+        fft_data.append(fft_window)
         start, stop = start + step, stop + step
 
     fft_data = np.array(fft_data)
