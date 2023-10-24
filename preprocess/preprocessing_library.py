@@ -23,9 +23,7 @@ class Slice:
         return "slice%d-%d" % (self.start, self.stop)
 
     def apply(self, data):
-        s = [slice(None),] * data.ndim
-        s[-1] = slice(self.start, self.stop)
-        return data[s]
+        return data[..., self.start:self.stop]
 
 class Magnitude:
     """
