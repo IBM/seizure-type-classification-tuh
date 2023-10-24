@@ -44,7 +44,7 @@ def main():
     if platform.system() == 'Linux':
         parser.add_argument('-l','--save_data_dir', default='/slow1/out_datasets/tuh/seizure_type_classification/',
                             help='path from resampled seizure data')
-        parser.add_argument('-b','--base_save_data_dir', default='/fast1/out_datasets/tuh/seizure_type_classification/',
+        parser.add_argument('-b','--preprocess_data_dir', default='/fast1/out_datasets/tuh/seizure_type_classification/',
                             help='path to processed data')
     elif platform.system() == 'Darwin':
         parser.add_argument('-l','--save_data_dir', default='/Users/jbtang/datasets/TUH/eeg_seizure/',
